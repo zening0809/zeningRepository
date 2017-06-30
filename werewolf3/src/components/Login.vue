@@ -1,6 +1,6 @@
 <template>
   <div id="login">
-       <div class="button" @click="loginhandler">登录</div>
+       <router-link tag="div" class="button" to="/home">登录</router-link>
        <router-link tag="div" class="button" to="/register">注册</router-link>
   </div>
 </template>
